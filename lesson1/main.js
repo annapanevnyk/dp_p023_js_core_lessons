@@ -38,8 +38,12 @@ alert(`You can buy ${chocolatCount} chocolates and have ${ wallet - (chocolatCou
 // 9
 let number = +prompt ('Enther three-digit number ')
 let revertNumber = number % 10
+
 number= Math.floor (number / 10)
 revertNumber= revertNumber + '' + number % 10 
+
 number= Math.floor (number / 10)
 revertNumber= revertNumber + '' + number % 10 
+
+
 alert(`Your revert number is ${revertNumber}`)
