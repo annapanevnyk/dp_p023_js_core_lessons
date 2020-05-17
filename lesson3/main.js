@@ -71,8 +71,8 @@ function changeCircle(event){
     let changecolor = document.getElementById('circle');
 
     changecolor.style.backgroundColor = colorname.value;
-    changecolor.style.width = size.value;
-    changecolor.style.height = size.value;
+    changecolor.style.width = size.value + 'px';
+    changecolor.style.height = size.value + 'px';
 }
 
 changecolor.addEventListener("submit", changeCircle);
