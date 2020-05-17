@@ -68,11 +68,18 @@ function changeCircle(event){
 
     event.preventDefault();
 
+    if (colorname.value == '' || size.value == ''){
+        alert('wrong input value')
+        return false;
+        
+    }
+
     let changecolor = document.getElementById('circle');
 
     changecolor.style.backgroundColor = colorname.value;
     changecolor.style.width = size.value + 'px';
     changecolor.style.height = size.value + 'px';
+
 }
 
 changecolor.addEventListener("submit", changeCircle);
