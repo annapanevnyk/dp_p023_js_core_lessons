@@ -199,7 +199,6 @@ else if (price >= 500 ) {
     alert(`Price with sale is ${price - (price * .07)} USD`);
 }
 
-
 // // 8
 
 let circle = +prompt('Please enter a of circle in sm');
