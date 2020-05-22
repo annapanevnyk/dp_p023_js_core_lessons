@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.trafficContainer {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    border: 1px solid grey;
+    background-color: #dfac8485;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.trafficLightColor {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 5px;
+    box-shadow: 3px 3px 2px rgba(128, 128, 128, 0.377);
+    background-color: grey;
+}
+.color_ff001dd1.active {
+    background-color: #ff001dd1;
+}
+.color_ffcf00bd.active {
+    background-color: #ffcf00bd;
+}
+.color_01cb3b.active {
+    background-color: #01cb3b;
+}
+.trafficButton {
+    height: 100px;
+    width: 80px;
+    background-color: #aeadada8;
+    border: grey;
+    box-shadow: 3px 3px 2px rgba(128, 128, 128, 0.377);
+    margin-left: 10px;
+}
