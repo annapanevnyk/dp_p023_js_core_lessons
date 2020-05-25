@@ -1,0 +1,20 @@
+#square > div {
+    width: 58px;
+    height: 58px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+#square > div.already-was{
+    background-color: rgb(117, 117, 117);
+}
+#square > div.active{
+    background-color: red;
+}
+#square{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
