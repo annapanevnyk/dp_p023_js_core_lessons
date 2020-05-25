@@ -108,9 +108,5 @@ mathExersice();
 let userName = document.querySelector('#username');
 
 userName.addEventListener('input', function(){
-//     this.value = this.value.replace(/\d/, '');
-
-    if(this.value.match(/\d/)){
-        this.value = this.value.replace(/\d/, '');
-    }
+    this.value = this.value.replace(/\d/, '');
 })
