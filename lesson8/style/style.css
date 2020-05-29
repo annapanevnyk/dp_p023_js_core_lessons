@@ -1,0 +1,19 @@
+.todo-list{
+    width: 100px;
+    border: 1px solid grey;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-list li{
+    list-style-type: none;
+}
+
+.todo-list li{
+    margin-top: 15px;
+
+}
+
+.todo-list li.done{
+    text-decoration: line-through;
+}
