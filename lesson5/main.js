@@ -80,7 +80,6 @@ function event(){
             mark = true;
             element.classList.remove('active');
             
-            console.log(typeof index);
         }
 
     });

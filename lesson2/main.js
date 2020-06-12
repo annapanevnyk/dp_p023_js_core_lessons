@@ -235,3 +235,34 @@ let currentDate = prompt('Enter current date as mm.dd.yy');
 let tomorrow = new Date(currentDate);
 tomorrow.setDate(tomorrow.getDate()+1);
 alert(`Tommorow is : ${tomorrow}`);
+
+
+let trafficButton = document.querySelector('.trafficButton');
+
+trafficButton.addEventListener('click', event)
+
+
+function event(){
+    
+    let trafficColor = document.querySelectorAll('.trafficLightColor');
+    let mark = false;
+    
+    trafficColor.forEach(function(element, index){
+
+        if(element.classList.contains('active') && !mark){
+            
+            if(index == 2){
+                trafficColor[0].classList.add('active');
+            } else {
+                trafficColor[+index+1].classList.add('active');
+            }
+
+            mark = true;
+            element.classList.remove('active');
+
+        }
+
+    });
+
+
+}
